@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="{{ asset('js/horos.js') }}"></script>
+<link rel="icon" href="https://gt.kh.ua/images/cv.svg">
+<title>Geometry Calculator</title>
+
+<body>
+  <body>
+  <div class="container">
+    <h1>ONE AND ONLY TASK</h1>
+    <h2>Geometry Calculator</h2>
+    <h3>Circle</h3>
+    <div class="input-group mb-2">
+      <span class="input-group-text">Radius</span>
+      <input id="radius" type="number" min="1" class="form-control" aria-label="Radius">
+    </div>
+    <div class="form-floating">
+      <textarea id="circle" readonly class="form-control" id="resultCircle"></textarea>
+      <label for="circle">Result</label>
+    </div>    
+    <h3>Triangle</h3>
+    <div class="input-group mb-2">
+      <span class="input-group-text">Sides</span>
+      <input class="form-control triangle" type="number" min="1" aria-label="a" class="form-control">
+      <input class="form-control triangle" type="number" min="1" aria-label="b" class="form-control">
+      <input class="form-control triangle" type="number" min="1" aria-label="c" class="form-control">
+    </div>
+    <div class="form-floating">
+      <textarea id="triangle" readonly class="form-control" id="resultTriangle"></textarea>
+      <label for="triangle">Result</label>
+    </div>    
+
+    <h3>Sum</h3>
+    <div class="form-floating">
+      <textarea id="sum" readonly class="form-control" id="resultSum"></textarea>
+      <label for="floatingTextarea">Result</label>
+    </div>    
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
+</body>
+</html>
